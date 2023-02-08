@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body style="background-color:#9fa0da;" >
+    <!-- <div class="container">
+      <div class="text-center">
+        <h4><b>Modelling Target Movement Time in HCI using Fitts’s Law</b></h4>
+      <button type="button" class="button btn btn-success" style="background-color:red;">Start</button>
+      </div>
+      <div class="conclusion" style="display: none;"">
+        <p style="text-align: center;">Click start to Play again.</p>
+        <div id="analysis">
+          <div id="info-table">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Circle No.</th>
+                  <th scope="col">Movement time(MT)(s)</th>
+                  <th scope="col">Target Distance(px)</th>
+                  <th scope="col">Circle Diameter(px)</th>
+                </tr>
+              </thead>
+              <tbody id="info-table-body"></tbody>
+            </table>
+          </div>
+          <div>
+            <canvas id="info-graph"></canvas>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="area"> </div>
+    <script src="index.js"></script> -->
+    <div class="container">
+      <!-- <div class="directions">
+        <h3>Click Start to Begin!</h3>
+      </div> -->
+      <div class="text-center">
+        <h4><b>Modelling Target Movement Time in HCI using Fitts’s Law</b></h4>
+      <button type="button" class="button btn btn-success" style="background-color:red;">Start</button>
+      </div>
+      <div class="message"></div>
+      <div class="conclusion">
+        <p style="text-align: center;">Click start to Play again.</p>
+        <div id="analysis">
+          <div id="info-table">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Circle No.</th>
+                  <th scope="col">Movement Time(s)</th>
+                  <th scope="col">Target Distance(A)(in px)</th>
+                  <th scope="col">Circle Diameter(W)(in px)</th>
+                </tr>
+              </thead>
+              <tbody id="info-table-body"></tbody>
+            </table>
+          </div>
+          <div class="variables"></div>
+          <div>
+            <div class="label1"></div>
+            <canvas id="info-graph"></canvas>
+            <div class="label2"></div>
+            <canvas id="info-graph2"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="area"></div>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="index.js"></script>
+      <script src="plotly-2.18.0.min.js"></script>
+    </div>
+  </body>
+</html>
